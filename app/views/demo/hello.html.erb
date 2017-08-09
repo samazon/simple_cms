@@ -1,0 +1,11 @@
+<h1>Hello  template</h1>
+
+
+
+
+<%= link_to('Index Page', {:action => 'index'})%> <br/>
+
+ID: <%= @id %> <br/>
+ID: <%= params[:id] %> <br/>
+Page: <%= @page %> <br/>
+Next Page: <%= @page.to_i + 1 %> <br/>
